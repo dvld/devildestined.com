@@ -1,1 +1,6 @@
-<a [routerLink]="link"><ng-content /></a>
+<a [href]="link">
+    <img [src]="imageSrc" />
+    <span>
+        {{ text }}
+    </span>
+</a>

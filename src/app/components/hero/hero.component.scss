@@ -1,28 +1,12 @@
 :host {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    .portait {
+    img {
         object-fit: cover;
         width: 200px;
         height: 200px;
         border-radius: 20px;
-    }
-
-    .social-icons {
-        width: 200px;
-        display: flex;
-        justify-content: space-around;
-        margin: 1rem 0;
-
-        .social-link {
-            margin: 0;
-            padding: 0;
-        }
-    }
-
-    .social-icon {
-        width: 2.5rem;
-        height: 2.5rem;
     }
 }

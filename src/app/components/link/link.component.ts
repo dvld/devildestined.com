@@ -1,13 +1,14 @@
 import { Component, Input } from '@angular/core';
-import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-link',
-  standalone: true,
-  imports: [RouterLink],
-  templateUrl: './link.component.html',
-  styleUrl: './link.component.scss'
+    selector: 'app-link',
+    standalone: true,
+    imports: [],
+    templateUrl: './link.component.html',
+    styleUrl: './link.component.scss',
 })
 export class LinkComponent {
-  @Input() link: string = '/';
+    @Input() link: string = '/';
+    @Input() imageSrc: string = '';
+    @Input() text: string = '';
 }

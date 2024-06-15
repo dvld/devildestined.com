@@ -1,5 +1,5 @@
 @for(socialLink of socialLinks; track $index;) {
-    <a class="social-link" [href]="socialLink.url">
-        <img class="social-icon" [src]="socialLink.iconSrc" />
+    <a [href]="socialLink.url">
+        <img [src]="socialLink.iconSrc" />
     </a>
 }

@@ -1,9 +1,1 @@
-<img class="portait" [src]="imgSrc" />
-
-<div class="social-icons">
-	@for(socialLink of socialLinks; track $index;) {
-	<a class="social-link" [href]="socialLink.url">
-		<img class="social-icon" [src]="socialLink.iconSrc" />
-	</a>
-	}
-</div>
+<img [src]="imgSrc" />
