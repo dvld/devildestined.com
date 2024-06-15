@@ -1,0 +1,21 @@
+:host {
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	gap: 15px;
+	padding: 30px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #111111;
+	font-family: "Josefin Sans", sans-serif;
+
+	ul {
+		list-style: none;
+		display: flex;
+		gap: 15px;
+	}
+}
