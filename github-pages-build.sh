@@ -1,6 +1,6 @@
-ng build -c production --base-href ./
+ng build -c production
 cd docs
-cd devildestined.com
-cd browser
+mv -v ./browser/* .
+rm -d ./browser
 cp index.html 404.html
 echo 'devildestined.com' >CNAME
