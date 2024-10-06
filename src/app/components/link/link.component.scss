@@ -3,15 +3,17 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 20px;
-    border: 0.5px solid #eeeeee;
-    padding: 15px 20px;
+    border-radius: 100px;
+    padding: 20px 50px;
     gap: 10px;
     text-decoration: none;
     color: #eeeeee;
-    background-color: #222;
-    // box-shadow: 1px 1px 10px -4px  #fff;
     font-size: 1.1rem;
+    transition: all 0.4s ease-in;
+    
+    &:hover {
+        background-color: #333;
+    }
 
     img {
         width: 5rem;
