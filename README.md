@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
 
+## Deploying with Github Pages
+
+When pushing changes to be deployed using github pages remember to run the `github-pages-build.sh` script
+```
+sh github-pages-build.sh
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

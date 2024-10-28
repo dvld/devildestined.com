@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
     styleUrl: './hero.component.scss',
 })
 export class HeroComponent {
-    imgSrc = '/assets/img/devildestined-portrait.jpeg';
+    imgSrc = '/assets/img/devildestined-portrait.png';
 }
