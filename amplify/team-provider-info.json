@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-devildestineddotcom-dev-ddd92-authRole",
+      "UnauthRoleArn": "arn:aws:iam::716341751832:role/amplify-devildestineddotcom-dev-ddd92-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::716341751832:role/amplify-devildestineddotcom-dev-ddd92-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-devildestineddotcom-dev-ddd92-deployment",
+      "UnauthRoleName": "amplify-devildestineddotcom-dev-ddd92-unauthRole",
+      "StackName": "amplify-devildestineddotcom-dev-ddd92",
+      "StackId": "arn:aws:cloudformation:us-east-1:716341751832:stack/amplify-devildestineddotcom-dev-ddd92/df461220-89d7-11ef-936c-12c041a24b85",
+      "AmplifyAppId": "d3spa3ka2mkxzu"
+    },
+    "categories": {
+      "auth": {
+        "devildestineddotcom38912b1d": {
+          "userPoolId": "us-east-1_44w7xhzsT",
+          "userPoolName": "devildestined.com-users",
+          "webClientId": "3hb0jmql7qckgrf6s6932vficl",
+          "nativeClientId": "3hb0jmql7qckgrf6s6932vficl",
+          "identityPoolId": "us-east-1:4b93a9d0-ef25-4baa-b41e-849864927f91",
+          "identityPoolName": "devildestined.com",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::716341751832:role/service-role/devildestined.com-authenticated",
+          "authRoleName": "devildestined.com-authenticated",
+          "unauthRoleArn": "arn:aws:iam::716341751832:role/service-role/devildestined.com-unauthenticated",
+          "unauthRoleName": "devildestined.com-unauthenticated"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "devildestineddotcom38912b1d": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_devildestineddotcom38912b1d_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_devildestineddotcom38912b1d_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "devildestineddotcom38912b1d"
+        }
+      ]
+    }
+  }
+}
